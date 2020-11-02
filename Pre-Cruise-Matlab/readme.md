@@ -1,4 +1,6 @@
 ### Welcome to the older code for the SOCCOM pre-cruise reports! 
+
+**You will need to download the folder that says cpt_matlab/kakearney-cptcmap-pkg-845bf83 because its where Sharon holds all her colormap stuff
  
 STEP 1: Edit the info in the MetaInfoLynne.m to be appropriate for your area. 
 
