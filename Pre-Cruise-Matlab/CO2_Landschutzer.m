@@ -37,9 +37,9 @@ meta = MetaInfo(cruise);  %links to metainfo so we can call variables, etc from 
 % use a GMT .cpt file for the color map and ticks
 %  from https://www.mathworks.com/matlabcentral/fileexchange/28943-color-palette-tables-cpt-for-matlab
 % for GMT cpt colormapping
-addpath([meta.top_loc,'/mfiles/cpt_matlab/kakearney-cptcmap-pkg-845bf83/cptcmap']);
-addpath([meta.top_loc,'/mfiles/cpt_matlab/kakearney-cptcmap-pkg-845bf83/parsepv']);
-addpath([meta.top_loc,'/mfiles/cpt_matlab/kakearney-cptcmap-pkg-845bf83/cptcmap/cptfiles']);
+addpath([meta.top_loc,'cpt_matlab/kakearney-cptcmap-pkg-845bf83/cptcmap']);
+addpath([meta.top_loc,'cpt_matlab/kakearney-cptcmap-pkg-845bf83/parsepv']);
+addpath([meta.top_loc,'cpt_matlab/kakearney-cptcmap-pkg-845bf83/cptcmap/cptfiles']);
 addpath([meta.common_loc]);  %for the file GMT_CO2.cpt
 %*****
 
