@@ -21,21 +21,7 @@ function meta = MetaInfoLynne(cruise)
 % path to common files which are used for all plots
 meta.common_loc = '/SOCCOM_pre-cruise/common_files/'; % common data files used
 
-meta.top_loc = '/SOCCOM_pre-cruise/SOCCOM_pre-cruise/';
-
-% location to world etopo2 file, very large
-meta.etopo_loc = '/SOCCOM_pre-cruise/common_files/';  % location of etopo file
-
-meta.altim_loc = '/SOCCOM_pre-cruise/common_files/';
-
 meta.chloro_loc = '/SOCCOM_pre-cruise/common_files/';
-
-meta.SST_loc = '/SOCCOM_pre-cruise/common_files/';
-
-% File names
-meta.SeaIceFile1 = 'nt_20060920_f13_v01_s.nc';       %greatest ice extent (change this depending on what sea ice file you want (this is September 20, 2006))
-meta.SeaIceFile2 = 'nt_20060220_f13_v01_s.nc';       %lower ice extent (change this depending on what sea ice file you want (this is February 20, 2006))
-
 
 %=======================================================
 if strcmp(cruise,'2020_NBP') %% CHANGE ANYTHING HERE THAT NEEDS TO BE CHANGED FOR YOUR AREA
